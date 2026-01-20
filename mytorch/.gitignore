@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.env
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional, but good if you have local settings)
+.vscode/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+
+# Unit Test / Coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Mac OS junk (if you or teammates use Macs)
+.DS_Store
