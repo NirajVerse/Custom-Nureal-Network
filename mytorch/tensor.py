@@ -5,9 +5,10 @@ import numpy as np
 class Tensor: ## initializing tensor ==> ultimate placeholder for ML neural net and building block 
     
 
-    def __init__(self, data):  #constructor for data and type
+    def __init__(self, data, requires_grad = False):  #constructor for data and type
         self._data = np.array(data, dtype=np.float32)
         self.dtype = self._data.dtype
+        self.requires_grad = requires_grad
         
     @property
     def shape(self):  ## attribute for easy accesss whenever the shape changes
